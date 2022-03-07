@@ -1,0 +1,529 @@
+{
+  page: 'watch',
+  timing: { info: { st: 0 } },
+  response: {
+    responseContext: {
+      serviceTrackingParams: [Array],
+      mainAppWebResponseContext: [Object],
+      webResponseContextExtensionData: [Object]
+    },
+    contents: { twoColumnWatchNextResults: [Object] },
+    currentVideoEndpoint: {
+      clickTrackingParams: 'CAAQg2ciEwiR5qusnar2AhVL7EwCHXfRBvI=',
+      commandMetadata: [Object],
+      watchEndpoint: [Object]
+    },
+    trackingParams: 'CAAQg2ciEwiR5qusnar2AhVL7EwCHXfRBvI=',
+    playerOverlays: { playerOverlayRenderer: [Object] },
+    overlay: { tooltipRenderer: [Object] },
+    onResponseReceivedEndpoints: [ [Object] ],
+    engagementPanels: [ [Object], [Object] ],
+    topbar: { desktopTopbarRenderer: [Object] },
+    frameworkUpdates: { entityBatchUpdate: [Object] }
+  },
+  xsrf_token: 'QUFFLUhqa1VqNDZ5YTBaU3ltN2I4OVdrYnZPUDVVOW5Vd3xBQ3Jtc0tra1FRYWxwXzhiVVpkRjFQelp3TEgwT3VJckdJeGhUSEgwYjNyczZtLXNSR09oSklnWWNmR0pmRXJPQ0paUllYeFVOZ0dabVBXX1ZGTV90STY1d3lCcnd4ZEtvRExLYVVNR2VuOXI3UXRwN0hhVlR
+PVQ==',
+  url: '/watch?v=Z9jYtfNiuC0%3Fhl%3Den',
+  endpoint: {
+    clickTrackingParams: 'IhMI1tiqrJ2q9gIVUCFgCh1aRA-KMghleHRlcm5hbA==',
+    commandMetadata: { webCommandMetadata: [Object] },
+    watchEndpoint: { videoId: 'Z9jYtfNiuC0' }
+  },
+  playerResponse: {
+    responseContext: {
+      serviceTrackingParams: [Array],
+      mainAppWebResponseContext: [Object],
+      webResponseContextExtensionData: [Object]
+    },
+    playabilityStatus: {
+      status: 'OK',
+      playableInEmbed: true,
+      liveStreamability: [Object],
+      miniplayer: [Object],
+      contextParams: 'Q0FFU0FnZ0M='
+    },
+    streamingData: {
+      expiresInSeconds: '21540',
+      adaptiveFormats: [Array],
+      dashManifestUrl: 'https://manifest.googlevideo.com/api/manifest/dash/expire/1646341981/ei/_dogYpyELpPlrQSEuKbwBw/ip/211.186.195.77/id/Z9jYtfNiuC0.6/source/yt_live_broadcast/requiressl/yes/tx/24027686/txs/24027683
+%2C24027684%2C24027685%2C24027686%2C24067850/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/vprv/1/pacing/0/keepalive/yes/fexp/24001373%2C24007246/itag/0/playlist_type
+/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Cas%2Cvprv%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgR4VMYWhAUX49s8bQCDbS9FQ3ANeBsxKTI0sNEs4kH-8CIQDyDYwSMQsHxfBTzGLTij2kG50vtWP4cVzSJqxoovSKyQ%3D%3D',
+      hlsManifestUrl: 'https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1646341981/ei/_dogYpyELpPlrQSEuKbwBw/ip/211.186.195.77/id/Z9jYtfNiuC0.6/source/yt_live_broadcast/requiressl/yes/tx/24027686/txs/24
+027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/
+expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgRG-3Jd2h_0WvubMIYKP550juVjOUtgFdQqzCzkPZfyQCIQCGxyYuAW_If
+Fn3rlI9tFjPoSGY0E2fO37FzLRZn3kxRQ%3D%3D/file/index.m3u8'
+    },
+    heartbeatParams: {
+      intervalMilliseconds: '15000',
+      softFailOnError: true,
+      heartbeatServerData: 'GAIgBg=='
+    },
+    playerAds: [ [Object] ],
+    playbackTracking: {
+      videostatsPlaybackUrl: [Object],
+      videostatsDelayplayUrl: [Object],
+      videostatsWatchtimeUrl: [Object],
+      ptrackingUrl: [Object],
+      qoeUrl: [Object],
+      atrUrl: [Object],
+      videostatsScheduledFlushWalltimeSeconds: [Array],
+      videostatsDefaultFlushIntervalSeconds: 40,
+      youtubeRemarketingUrl: [Object],
+      googleRemarketingUrl: [Object]
+    },
+    videoDetails: {
+      videoId: 'Z9jYtfNiuC0',
+      title: '[�몰아보는 LIVE] 윤석열·안철수 전격 단일화 이슈 몰아보기 - [선택2022] MBC뉴스',
+      lengthSeconds: '0',
+      isLive: true,
+      keywords: [Array],
+      channelId: 'UCF4Wxdo3inmxP-Y59wXDsFw',
+      isOwnerViewing: false,
+      shortDescription: '오늘 윤석열·안철수 두 후보의 전격 단일화 이후 각 당의 반응과 뉴스를 모아 몰아보기를 제공하고 있습니다.\n' +
+        '\n' +
+        '#윤석열 #안철수 #단일화 #대통령선거 #선택2022',
+      isCrawlable: true,
+      isLiveDvrEnabled: false,
+      thumbnail: [Object],
+      liveChunkReadahead: 3,
+      allowRatings: true,
+      viewCount: '43429',
+      author: 'MBCNEWS',
+      isLowLatencyLiveStream: true,
+      isPrivate: false,
+      isUnpluggedCorpus: false,
+      latencyClass: 'MDE_STREAM_OPTIMIZATIONS_RENDERER_LATENCY_LOW',
+      isLiveContent: true
+    },
+    annotations: [ [Object] ],
+    playerConfig: {
+      audioConfig: [Object],
+      streamSelectionConfig: [Object],
+      livePlayerConfig: [Object],
+      mediaCommonConfig: [Object],
+      webPlayerConfig: [Object]
+    },
+    storyboards: { playerLiveStoryboardSpecRenderer: [Object] },
+    microformat: { playerMicroformatRenderer: [Object] },
+    trackingParams: 'CAAQu2kiEwjFxausnar2AhWM50wCHWApAtc=',
+    attestation: { playerAttestationRenderer: [Object] },
+    videoQualityPromoSupportedRenderers: { videoQualityPromoRenderer: [Object] },
+    messages: [ [Object] ],
+    adPlacements: [ [Object], [Object] ],
+    frameworkUpdates: { entityBatchUpdate: [Object] }
+  },
+  preconnect: [
+    'https://r6---sn-n3cgv5qc5oq-bh2z7.googlevideo.com/generate_204',
+    'https://r6---sn-n3cgv5qc5oq-bh2z7.googlevideo.com/generate_204?conn2'
+  ],
+  rootVe: '3832',
+  player_response: {
+    responseContext: {
+      serviceTrackingParams: [Array],
+      mainAppWebResponseContext: [Object],
+      webResponseContextExtensionData: [Object]
+    },
+    playabilityStatus: {
+      status: 'OK',
+      playableInEmbed: true,
+      liveStreamability: [Object],
+      miniplayer: [Object],
+      contextParams: 'Q0FFU0FnZ0M='
+    },
+    streamingData: {
+      expiresInSeconds: '21540',
+      adaptiveFormats: [Array],
+      dashManifestUrl: 'https://manifest.googlevideo.com/api/manifest/dash/expire/1646341981/ei/_dogYpyELpPlrQSEuKbwBw/ip/211.186.195.77/id/Z9jYtfNiuC0.6/source/yt_live_broadcast/requiressl/yes/tx/24027686/txs/24027683
+%2C24027684%2C24027685%2C24027686%2C24067850/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/vprv/1/pacing/0/keepalive/yes/fexp/24001373%2C24007246/itag/0/playlist_type
+/LIVE/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Cas%2Cvprv%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgR4VMYWhAUX49s8bQCDbS9FQ3ANeBsxKTI0sNEs4kH-8CIQDyDYwSMQsHxfBTzGLTij2kG50vtWP4cVzSJqxoovSKyQ%3D%3D',
+      hlsManifestUrl: 'https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1646341981/ei/_dogYpyELpPlrQSEuKbwBw/ip/211.186.195.77/id/Z9jYtfNiuC0.6/source/yt_live_broadcast/requiressl/yes/tx/24027686/txs/24
+027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/
+expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgRG-3Jd2h_0WvubMIYKP550juVjOUtgFdQqzCzkPZfyQCIQCGxyYuAW_If
+Fn3rlI9tFjPoSGY0E2fO37FzLRZn3kxRQ%3D%3D/file/index.m3u8'
+    },
+    heartbeatParams: {
+      intervalMilliseconds: '15000',
+      softFailOnError: true,
+      heartbeatServerData: 'GAIgBg=='
+    },
+    playerAds: [ [Object] ],
+    playbackTracking: {
+      videostatsPlaybackUrl: [Object],
+      videostatsDelayplayUrl: [Object],
+      videostatsWatchtimeUrl: [Object],
+      ptrackingUrl: [Object],
+      qoeUrl: [Object],
+      atrUrl: [Object],
+      videostatsScheduledFlushWalltimeSeconds: [Array],
+      videostatsDefaultFlushIntervalSeconds: 40,
+      youtubeRemarketingUrl: [Object],
+      googleRemarketingUrl: [Object]
+    },
+    videoDetails: {
+      videoId: 'Z9jYtfNiuC0',
+      title: '[�몰아보는 LIVE] 윤석열·안철수 전격 단일화 이슈 몰아보기 - [선택2022] MBC뉴스',
+      lengthSeconds: '0',
+      isLive: true,
+      keywords: [Array],
+      channelId: 'UCF4Wxdo3inmxP-Y59wXDsFw',
+      isOwnerViewing: false,
+      shortDescription: '오늘 윤석열·안철수 두 후보의 전격 단일화 이후 각 당의 반응과 뉴스를 모아 몰아보기를 제공하고 있습니다.\n' +
+        '\n' +
+        '#윤석열 #안철수 #단일화 #대통령선거 #선택2022',
+      isCrawlable: true,
+      isLiveDvrEnabled: false,
+      thumbnail: [Object],
+      liveChunkReadahead: 3,
+      allowRatings: true,
+      viewCount: '43429',
+      author: 'MBCNEWS',
+      isLowLatencyLiveStream: true,
+      isPrivate: false,
+      isUnpluggedCorpus: false,
+      latencyClass: 'MDE_STREAM_OPTIMIZATIONS_RENDERER_LATENCY_LOW',
+      isLiveContent: true
+    },
+    annotations: [ [Object] ],
+    playerConfig: {
+      audioConfig: [Object],
+      streamSelectionConfig: [Object],
+      livePlayerConfig: [Object],
+      mediaCommonConfig: [Object],
+      webPlayerConfig: [Object]
+    },
+    storyboards: { playerLiveStoryboardSpecRenderer: [Object] },
+    microformat: { playerMicroformatRenderer: [Object] },
+    trackingParams: 'CAAQu2kiEwjFxausnar2AhWM50wCHWApAtc=',
+    attestation: { playerAttestationRenderer: [Object] },
+    videoQualityPromoSupportedRenderers: { videoQualityPromoRenderer: [Object] },
+    messages: [ [Object] ],
+    adPlacements: [ [Object], [Object] ],
+    frameworkUpdates: { entityBatchUpdate: [Object] }
+  },
+  formats: [
+    {
+      itag: 137,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5
+CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRgIhAICRkmQyxP5w27F6b9desTZ3lfbaola37twYASFseJHtAiEAuoUNEHpMlnAeZke1EKCvm7TfjL5hCNIxZpuYS
+H4zZG0%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/mp4; codecs="avc1.4d4028"',
+      bitrate: 4199987,
+      width: 1920,
+      height: 1080,
+      lastModified: '1646313068177136',
+      quality: 'hd1080',
+      fps: 30,
+      qualityLabel: '1080p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 248,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=248&aitags=242%2C243%2C244%2C247%2C248%2C278&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fwebm&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD
+5CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRQIhAPHI7DinnUO3JqMokDn3W2ZJboavtfCCfCrOAxVkJKbqAiBx35It2I_1xnZO6Vonu6y2m3V3zQw_GEGCWz6I
+F5YoCg%3D%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/webm; codecs="vp9"',
+      bitrate: 1402000,
+      width: 1920,
+      height: 1080,
+      lastModified: '1646313068177146',
+      quality: 'hd1080',
+      fps: 30,
+      qualityLabel: '1080p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 136,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=136&aitags=133%2C134%2C135%2C136%2C137%2C160&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5
+CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRQIhANFkFVHRr4oHyL9zk14eGDaJsesPOpGPXMyQrMBmKwjvAiAVsvuDuxUYRNuiX7IMEtzdOXznvMCvejjQv6DQz
+XJG0A%3D%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/mp4; codecs="avc1.4d401f"',
+      bitrate: 2187400,
+      width: 1280,
+      height: 720,
+      lastModified: '1646313068177141',
+      quality: 'hd720',
+      fps: 30,
+      qualityLabel: '720p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 247,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=247&aitags=242%2C243%2C244%2C247%2C248%2C278&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fwebm&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD
+5CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRgIhAJBbah92ywEwUSGco04Yp1M-iXb6G7faa5yaF2WhFNw3AiEAkmfFVMGjtq_ML1esBr9oml53aw8c_OejhpDl
+N237cHk%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/webm; codecs="vp9"',
+      bitrate: 774000,
+      width: 1280,
+      height: 720,
+      lastModified: '1646313068177145',
+      quality: 'hd720',
+      fps: 30,
+      qualityLabel: '720p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 135,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=135&aitags=133%2C134%2C135%2C136%2C137%2C160&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5
+CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRAIgXRheQMxbnhDR5Ihl4Zqv8lUnGvGr-HfhcfJZhfb9SzICIBkkYoQNKZfWqxdzT-IjPnbBeLOIER-yCqGCCE_-W
+yBA&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/mp4; codecs="avc1.4d401f"',
+      bitrate: 1077445,
+      width: 854,
+      height: 480,
+      lastModified: '1646313068177140',
+      quality: 'large',
+      fps: 30,
+      qualityLabel: '480p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 244,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=244&aitags=242%2C243%2C244%2C247%2C248%2C278&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fwebm&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD
+5CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRQIgSxyozGS1QpqY18g-GdwsHF6aRmHPvxGGsBU2e3kO3wACIQDcdHuglDuyhFbVq8gNQruISfJ55N6wxHq6EmEj
+d4rVPw%3D%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/webm; codecs="vp9"',
+      bitrate: 415000,
+      width: 854,
+      height: 480,
+      lastModified: '1646313068177147',
+      quality: 'large',
+      fps: 30,
+      qualityLabel: '480p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 134,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=134&aitags=133%2C134%2C135%2C136%2C137%2C160&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5
+CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRgIhAPujlZnfIbOGFbkpaUx01-pHNYUb5CiUT_3DbgKoY0wWAiEA0E-FX-z-o87ghOWnhk7Y4ELL-Si49GB_u_fxy
+VuuWf8%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/mp4; codecs="avc1.4d401e"',
+      bitrate: 772630,
+      width: 640,
+      height: 360,
+      lastModified: '1646313068177142',
+      quality: 'medium',
+      fps: 30,
+      qualityLabel: '360p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200,
+      highReplication: true
+    },
+    {
+      itag: 243,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=243&aitags=242%2C243%2C244%2C247%2C248%2C278&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fwebm&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD
+5CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRQIgHgfv5FfN9pdMc1ybK0iiuy8D7VpM-51sIKrE2dZapEcCIQC5gu6Z6sdkV-f6YUDvmdPdxSrB7C6SNQtAi_Zi
+ugcNew%3D%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/webm; codecs="vp9"',
+      bitrate: 240000,
+      width: 640,
+      height: 360,
+      lastModified: '1646313068177143',
+      quality: 'medium',
+      fps: 30,
+      qualityLabel: '360p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 133,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=133&aitags=133%2C134%2C135%2C136%2C137%2C160&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5
+CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRAIgb6_vDwlevQ7Pd27Hx2Sxs5qSqI-W6Kfx6SBKxWNx-6UCIGNxnIsYf9s2MmZITiL2vVajG0wpAUjGQ9kpg2uxt
+gog&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/mp4; codecs="avc1.4d4015"',
+      bitrate: 419256,
+      width: 426,
+      height: 240,
+      lastModified: '1646313068177138',
+      quality: 'small',
+      fps: 30,
+      qualityLabel: '240p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 242,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=242&aitags=242%2C243%2C244%2C247%2C248%2C278&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fwebm&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD
+5CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRgIhAKtPOeRLFLz29ijYKCMvuvaED8fSjPqcB7e78fw9hkt9AiEA_TNfm1xT1UZ4qQ9eJHFSP3vSm0eghhbqN-23
+7M5JucE%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/webm; codecs="vp9"',
+      bitrate: 139000,
+      width: 426,
+      height: 240,
+      lastModified: '1646313068177148',
+      quality: 'small',
+      fps: 30,
+      qualityLabel: '240p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 160,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=160&aitags=133%2C134%2C135%2C136%2C137%2C160&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5
+CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRgIhAK6xMpTQFVS8bF3TsIu4pFiP6snyauOkBuk-V2lj1NnBAiEAvFJK8RWk7T591WmCJpD5AAtKFdGFuWEWDzGfY
+X0uazI%3D&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/mp4; codecs="avc1.4d400c"',
+      bitrate: 192223,
+      width: 256,
+      height: 144,
+      lastModified: '1646313068177137',
+      quality: 'tiny',
+      fps: 30,
+      qualityLabel: '144p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 278,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=278&aitags=242%2C243%2C244%2C247%2C248%2C278&source=yt_li
+ve_broadcast&requiressl=yes&hcs=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-
+n3cgv5qc5oq-bh2sz.googlevideo.com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=video%2Fwebm&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD
+5CHyM0UR&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRAIgR17WyLG450sKmk2zh7bCoxZXLPBG8e4VTbw4tEG5KfECIDey-Did2L7fGGwfpff1jyU3fPY8dnf14C6dAEer
+b3IP&lsparams=hcs%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'video/webm; codecs="vp9"',
+      bitrate: 80000,
+      width: 256,
+      height: 144,
+      lastModified: '1646313068177144',
+      quality: 'tiny',
+      fps: 30,
+      qualityLabel: '144p',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200
+    },
+    {
+      itag: 140,
+      url: 'https://rr6---sn-n3cgv5qc5oq-bh2sz.googlevideo.com/videoplayback?expire=1646341981&ei=_dogYpyELpPlrQSEuKbwBw&ip=211.186.195.77&id=Z9jYtfNiuC0.6&itag=140&aitags=140&source=yt_live_broadcast&requiressl=yes&hc
+s=ir%2Csd&mh=GG&mm=44%2C29&mn=sn-n3cgv5qc5oq-bh2sz%2Csn-n3cgv5qc5oq-bh26k&ms=lva%2Crdu&mv=m&mvi=6&pcm2cms=yes&pl=19&rmhost=rr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.com%2C&smhost=%2Crr8---sn-n3cgv5qc5oq-bh2sz.googlevideo.
+com&initcwndbps=1128750&vprv=1&live=1&hang=1&noclen=1&mime=audio%2Fmp4&ns=_ieDYs3wKNL_gg7rAF-z0rkG&gir=yes&mt=1646319879&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&n=yiaqa6PLLUwD5CHyM0UR&sparams=expire%2Cei%2C
+ip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Clive%2Chang%2Cnoclen%2Cmime%2Cns%2Cgir&sig=AOq0QJ8wRgIhAPqDrsO-emUjfu9RjCWiCi9PkCBY_UD7KHplW3zQojt2AiEAvDmxSwFjxUL7eMNnFjlMWeSyezbwyz58_J6pqGaCNiY%3D&lsparams=hcs%2Cmh%2C
+mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crmhost%2Csmhost%2Cinitcwndbps&lsig=AG3C_xAwRAIgGeRDdTILLPhojuJjPRMui41q5fzmMDYdDk1V12yl4dQCIEy6jpDa4jUbHU-19pc1NW4DbbFnWnPmRTapegwPPVlJ',
+      mimeType: 'audio/mp4; codecs="mp4a.40.2"',
+      bitrate: 144000,
+      lastModified: '1646313068177134',
+      quality: 'tiny',
+      projectionType: 'RECTANGULAR',
+      targetDurationSec: 2,
+      maxDvrDurationSec: 43200,
+      highReplication: true,
+      audioQuality: 'AUDIO_QUALITY_MEDIUM',
+      audioSampleRate: '44100',
+      audioChannels: 2
+    }
+  ],
+  videoDetails: {
+    thumbnail: { thumbnails: [Array] },
+    embed: {
+      iframeUrl: 'https://www.youtube.com/embed/Z9jYtfNiuC0',
+      flashUrl: 'http://www.youtube.com/v/Z9jYtfNiuC0?version=3&autohide=1',
+      width: 480,
+      height: 360,
+      flashSecureUrl: 'https://www.youtube.com/v/Z9jYtfNiuC0?version=3&autohide=1'
+    },
+    title: '[�몰아보는 LIVE] 윤석열·안철수 전격 단일화 이슈 몰아보기 - [선택2022] MBC뉴스',
+    description: {
+      simpleText: '오늘 윤석열·안철수 두 후보의 전격 단일화 이후 각 당의 반응과 뉴스를 모아 몰아보기를 제공하고 있습니다.\n' +
+        '\n' +
+        '#윤석열 #안철수 #단일화 #대통령선거 #선택2022'
+    },
+    lengthSeconds: '0',
+    ownerProfileUrl: 'http://www.youtube.com/user/MBCnews',
+    externalChannelId: 'UCF4Wxdo3inmxP-Y59wXDsFw',
+    isFamilySafe: true,
+    availableCountries: [
+      'AD', 'AE', 'AF', 'AG', 'AI', 'AL', 'AM', 'AO', 'AQ', 'AR',
+      'AS', 'AT', 'AU', 'AW', 'AX', 'AZ', 'BA', 'BB', 'BD', 'BE',
+      'BF', 'BG', 'BH', 'BI', 'BJ', 'BL', 'BM', 'BN', 'BO', 'BQ',
+      'BR', 'BS', 'BT', 'BV', 'BW', 'BY', 'BZ', 'CA', 'CC', 'CD',
+      'CF', 'CG', 'CH', 'CI', 'CK', 'CL', 'CM', 'CN', 'CO', 'CR',
+      'CU', 'CV', 'CW', 'CX', 'CY', 'CZ', 'DE', 'DJ', 'DK', 'DM',
+      'DO', 'DZ', 'EC', 'EE', 'EG', 'EH', 'ER', 'ES', 'ET', 'FI',
+      'FJ', 'FK', 'FM', 'FO', 'FR', 'GA', 'GB', 'GD', 'GE', 'GF',
+      'GG', 'GH', 'GI', 'GL', 'GM', 'GN', 'GP', 'GQ', 'GR', 'GS',
+      'GT', 'GU', 'GW', 'GY', 'HK', 'HM', 'HN', 'HR', 'HT', 'HU',
+      ... 149 more items
+    ],
+    isUnlisted: false,
+    hasYpcMetadata: false,
+    viewCount: '43429',
+    category: 'News & Politics',
+    publishDate: '2022-03-03',
+    ownerChannelName: 'MBCNEWS',
+    liveBroadcastDetails: { isLiveNow: true, startTimestamp: '2022-03-03T13:11:09+00:00' },
+    uploadDate: '2022-03-03',
+    videoId: 'Z9jYtfNiuC0',
+    isLive: true,
+    keywords: [
+      'MBC',        'MBC뉴스',
+      '뉴스데스크', 'newsdesk',
+      '뉴스투데이', 'newstoday',
+      '8시뉴스',    '아침뉴스',
+      '뉴스',       '정오뉴스',
+      'news',       '뉴스외전',
+      '프리데스크', '이재명',
+      '윤석열',     '심상정',
+      '안철수',     '대선토론',
+      '대선후보',   '선거',
+      '단일화'
+    ],
+    channelId: 'UCF4Wxdo3inmxP-Y59wXDsFw',
+    isOwnerViewing: false,
+    shortDescription: '오늘 윤석열·안철수 두 후보의 전격 단일화 이후 각 당의 반응과 뉴스를 모아 몰아보기를 제공하고 있습니다.\n' +
+      '\n' +
+      '#윤석열 #안철수 #단일화 #대통령선거 #선택2022',
+    isCrawlable: true,
+    isLiveDvrEnabled: false,
+    liveChunkReadahead: 3,
+    allowRatings: true,
+    author: 'MBCNEWS',
+    isLowLatencyLiveStream: true,
+    isPrivate: false,
+    isUnpluggedCorpus: false,
+    latencyClass: 'MDE_STREAM_OPTIMIZATIONS_RENDERER_LATENCY_LOW',
+    isLiveContent: true
+  },
+  html5player: undefined,
+  video_id: 'Z9jYtfNiuC0',
+  video_url: 'https://www.youtube.com/watch?v=Z9jYtfNiuC0',
+  title: '[�몰아보는 LIVE] 윤석열·안철수 전격 단일화 이슈 몰아보기 - [선택2022] MBC뉴스',
+  length_seconds: '0'
+}
