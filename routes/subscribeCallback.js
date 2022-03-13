@@ -1,6 +1,7 @@
 const searchLiveVideos = (req, res, next) => {
     const challenge = req.query['hub.challenge'];
     if(challenge) {
+        console.log(challenge);
         res.send(200, challenge);
         return;
     }
