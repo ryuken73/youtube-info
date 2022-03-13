@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "googleapis": "^96.0.0",
     "restify": "^8.6.1",
     "youtube-info-streams": "^1.0.8"
   }
