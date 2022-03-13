@@ -7,7 +7,7 @@ const getYoutubeHlsUrl = ytInfo => {
     return ytInfo.playerResponse?.streamingData?.hlsManifestUrl
 }
 const findValuleByKey = (jsonObj, findKey, path='top') => {
-   console.log(`searching ${path}...${Object.keys(jsonObj)}...${findKey}`);
+   printLog(`searching ${path}...${Object.keys(jsonObj)}...${findKey}`);
    const keys = Object.keys(jsonObj);
    if(keys.includes(findKey)){
        return jsonObj[findKey];
@@ -22,12 +22,19 @@ const findValuleByKey = (jsonObj, findKey, path='top') => {
         }
    }
 }
+const isDevMode = process.env.MODE === 'dev'
+const printLog = message => {
+    isDevMode && console.log(message);
+}
 
 const getVideoInfo = async (req, res, next) => {
     const videoId = req.params.videoId;
     const queryKey = req.query.jsonKey || HLS_MANIFEST_URL;
+    const debug = req.query.debug || false;
+    let videoInfo;
     try {
-        const videoInfo = await yt.info(videoId);
+        videoInfo = await yt.info(videoId);
+        printLog(videoInfo);
         let result;
         if(queryKey === HLS_MANIFEST_URL){
             result = getYoutubeHlsUrl(videoInfo) || findValuleByKey(videoInfo, HLS_MANIFEST_URL);
@@ -39,9 +46,13 @@ const getVideoInfo = async (req, res, next) => {
         }
         res.send({success:true, result})
     } catch(error) {
-        console.error(error)
+        console.error(error, queryKey, videoId)
+        if(debug){
+            res.send({success:false, error, videoInfo})
+            return
+        }
         if(error.name = 'ValueNotFoundError'){
-            res.send({success:false, error:`requested key not found: ${queryKey}`})
+            res.send({success:false, error:`video shoud be youtube live contents. cannot get hls url: queryKey = ${queryKey} : videoId = ${videoId}`})
         } else if(error.name = 'Error'){
             res.send({success:false, error:'invalid youtube id. please check id.'})
         }
