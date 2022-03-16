@@ -6,7 +6,7 @@ console.log(CONSTANTS, EVENTS);
 
 const getEventName = channelId => {
     const channel = EVENTS.find(event => event.id === channelId)
-    const eventName = channel 
+    const {eventName} = channel 
     return eventName;
 }
 
@@ -17,6 +17,7 @@ const handleFeed = async (req, res, next) => {
     const {channelId} = parsed;
     // send SSE
     const eventName = getEventName(channelId);
+    console.log(`eventName[${eventName}, channelId[${channelId}]]`);
     const parsedWithEventName = {...parsed, eventName};
     const sendCount = req.broadcast(eventName, JSON.stringify(parsedWithEventName));
     //
