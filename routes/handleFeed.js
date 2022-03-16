@@ -2,10 +2,12 @@ const parseFeed = require('../lib/parseYoutubeAtom');
 const CONSTANTS = require('../config.json');
 
 const {EVENTS} = CONSTANTS;
+console.log(CONSTANTS, EVENTS);
 
 const getEventName = channelId => {
     const channel = EVENTS.find(event => event.id === channelId)
-    return channel.eventName || 'NOT-DEFINED';
+    const eventName = channel ? channel.eventName : 'NOT-DEFINED-EVENT';
+    return eventName;
 }
 
 const handleFeed = async (req, res, next) => {
