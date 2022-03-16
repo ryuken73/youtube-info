@@ -6,6 +6,7 @@ console.log(CONSTANTS, EVENTS);
 
 const getEventName = channelId => {
     const channel = EVENTS.find(event => event.id === channelId)
+    console.log(channelId, EVENTS, channel)
     const {eventName} = channel 
     return eventName;
 }
