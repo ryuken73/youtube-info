@@ -14,12 +14,13 @@ server.get('/ytinfo/searchLiveVideos/:channelId', searchLiveVideos);
 server.get('/youtube/subscribe/callback', subscribeCallback);
 server.post('/youtube/subscribe/callback', useBroadcast, handleFeed);
 server.get('/youtube/pushMessage', useBroadcast, (req, res) => {
-    const {event, message="hello"} = req.query;
+    const {event, message="hello \n\n"} = req.query;
     const sendCount = req.broadcast(event, message);
     res.send({success: true, result: sendCount});
 })
 server.get('/youtube/waitEvent', useWaitEvent, (req, res) => {
     const {event} = req.query;
+    console.log(event)
     req.waitEvent(event, res)
 })
 server.listen(8000, () => console.log(`listening ${server.name}: ${server.url}`))

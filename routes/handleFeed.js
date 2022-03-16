@@ -17,7 +17,7 @@ const handleFeed = async (req, res, next) => {
     const {channelId} = parsed;
     // send SSE
     const eventName = getEventName(channelId);
-    const sendCount = req.broadcast(eventName, parsed);
+    const sendCount = req.broadcast(eventName, JSON.stringify(parsed));
     //
     console.log(parsed);
     console.log(sendCount);
