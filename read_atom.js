@@ -31,17 +31,32 @@ const atomString = `
  </entry> 
  </feed>
 `
+const toReadableDate = date => {
+    const options = {dateStyle: 'full', hour12:false, timeStyle: 'medium'};
+    return new Intl.DateTimeFormat('en-US', options).format(date)
+}
+
+const xml = JSON.parse(convert.xml2json(atomString, {compact:true}));
+const entry = xml['feed']['entry'];
+const entries = Array.isArray(entry) ? entry:[...entry];
+
 feed.atom(atomString, (err, articles) => {
     if(err){
         console.log(err);
         return;
     }
-    console.log(articles)
+    const localized = articles.map((article, index) => {
+        const publishedLocal = toReadableDate(new Date(article.published));
+        const entryInXML = entries[index];
+        const videoId = entryInXML['yt:videoId']['_text'];
+        const updatedLocal = toReadableDate(new Date(entryInXML['updated']['_text']));
+        return {...article, publishedLocal, videoId, updatedLocal};
+    })
+    console.log(localized)
 })
 
-const xml = JSON.parse(convert.xml2json(atomString, {compact:true}));
-const ytId = xml['yt:videoId'];
-console.log(xml)
-console.log(xml['feed']['entry'])
-console.log(xml['feed']['entry']['yt:videoId']['_text'])
-console.log(ytId)
+
+// console.log(xml)
+// console.log(xml['feed']['entry'])
+// console.log(xml['feed']['entry']['yt:videoId']['_text'])
+// console.log(ytId)
