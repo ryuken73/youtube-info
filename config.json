@@ -1,5 +1,12 @@
 {
-    "EVENTS": {
-        "YT_SBS_NEWS_24":"sbs_news24"
-    }
+    "EVENTS": [
+        {"id":"UCkinYTS9IHqOEwR1Sze2JTw", "eventName":"SBS"},
+        {"id":"UChlgI3UHCOnwUGzWzbJ3H5w", "eventName":"YTN"},
+        {"id":"UCF4Wxdo3inmxP-Y59wXDsFw", "eventName":"MBC"},
+        {"id":"UCcQTRi69dsVYHN3exePtZ1A", "eventName":"KBS"},
+        {"id":"UCsU-I-vHLiaMfV_ceaYz5rQ", "eventName":"JTBC"},
+        {"id":"UCG9aFJTZ-lMCHAiO1KJsirg", "eventName":"MBN"},
+        {"id":"UCfq4V1DAuaojnr2ryvWNysw", "eventName":"CHANNEL-A"},
+        {"id":"UCWlV3Lz_55UaX4JsMj-z__Q", "eventName":"TV-CHOSUN"}
+    ]
 }
