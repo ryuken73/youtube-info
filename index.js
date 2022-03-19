@@ -20,7 +20,6 @@ server.get('/youtube/pushMessage', useBroadcast, (req, res) => {
 })
 server.get('/youtube/waitEvent', useWaitEvent, (req, res) => {
     const {event} = req.query;
-    console.log(event)
     req.waitEvent(event, res)
 })
 server.listen(8000, () => console.log(`listening ${server.name}: ${server.url}`))
