@@ -1,11 +1,18 @@
 const restify = require('restify');
+const corsMiddleware = require('restify-cors-middleware')
 const getVideoInfo = require('./routes/getVideoInfo');
 const searchLiveVideos = require('./routes/searchLiveVideos');
 const subscribeCallback = require('./routes/subscribeCallback');
 const handleFeed = require('./routes/handleFeed');
 const {useWaitEvent, useBroadcast} = require('./lib/sseClass');
 
+const cors = corsMiddleware({
+  origins: ['*']
+})
+
 const server = restify.createServer();
+server.pre(cors.preflight)
+server.use(cors.actual)
 server.use(restify.plugins.queryParser());
 server.use(restify.plugins.bodyParser());
 server.pre(restify.plugins.pre.context());
