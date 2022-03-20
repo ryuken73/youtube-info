@@ -22,7 +22,7 @@ server.get('/youtube/subscribe/callback', subscribeCallback);
 server.post('/youtube/subscribe/callback', useBroadcast, handleFeed);
 server.get('/youtube/pushMessage', useBroadcast, (req, res) => {
     const {event, message="hello \n\n"} = req.query;
-    const sendCount = req.broadcast(event, message);
+    const sendCount = req.broadcast(message, event);
     res.send({success: true, result: sendCount});
 })
 server.get('/youtube/waitEvent', useWaitEvent, (req, res) => {
