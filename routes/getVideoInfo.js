@@ -34,6 +34,7 @@ const getVideoInfo = async (req, res, next) => {
     let videoInfo;
     try {
         videoInfo = await yt.info(videoId);
+        console.log(videoInfo)
         printLog(videoInfo);
         let result;
         if(queryKey === HLS_MANIFEST_URL){

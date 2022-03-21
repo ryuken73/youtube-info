@@ -1,13 +1,15 @@
 const restify = require('restify');
 const corsMiddleware = require('restify-cors-middleware')
 const getVideoInfo = require('./routes/getVideoInfo');
-const searchLiveVideos = require('./routes/searchLiveVideos');
+const searchLiveVideos = require('./routes/searchLiveVideos'); 
+const getComments = require('./routes/getComments');
+const getLiveChatMessages = require('./routes/getLiveChatMessages');
 const subscribeCallback = require('./routes/subscribeCallback');
 const handleFeed = require('./routes/handleFeed');
 const {useWaitEvent, useBroadcast} = require('./lib/sseClass');
 
 const cors = corsMiddleware({
-  origins: ['*']
+  origins: ['*'] 
 })
 
 const server = restify.createServer();
@@ -18,6 +20,8 @@ server.use(restify.plugins.bodyParser());
 server.pre(restify.plugins.pre.context());
 server.get('/ytinfo/getHlsUrl/:videoId', getVideoInfo);
 server.get('/ytinfo/searchLiveVideos/:channelId', searchLiveVideos);
+server.get('/ytinfo/getComments/:videoId', getComments);
+server.get('/ytinfo/getLiveChatMessages', getLiveChatMessages);
 server.get('/youtube/subscribe/callback', subscribeCallback);
 server.post('/youtube/subscribe/callback', useBroadcast, handleFeed);
 server.get('/youtube/pushMessage', useBroadcast, (req, res) => {
